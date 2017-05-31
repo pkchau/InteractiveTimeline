@@ -1,0 +1,292 @@
+/*CSS for smooth scroll via navbar*/
+body {
+  position: relative;
+  overflow: scroll;
+}
+
+section {
+  padding-top: 50px;
+}
+
+.instruct {
+  text-align: center;
+  color: #A30A28;
+}
+
+.navbar {
+  background-color: #A30A28;
+  border: none;
+}
+
+.navbar .nav > li > a {
+  color: white;
+}
+
+.navbar .nav > .active > a {
+  background-color: #6B0800;
+}
+
+/*heading*/
+.section-title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #660000;
+}
+
+/*intro*/
+.intro {
+  height: 900px;
+}
+
+.mypic {
+  display: block;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+h1 {
+  text-align: center;
+  color: #A30A28;
+}
+
+.intro-down-arrow {
+  position: relative;
+  height: 50px;
+  width: 100px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+/*scrolling buttons*/
+.glyphicon.glyphicon-triangle-bottom {
+  font-size: 50px;
+  color: #A30A28;
+}
+
+.glyphicon.glyphicon-triangle-top {
+  font-size: 50px;
+  color: #A30A28;
+}
+
+button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.up-arrow {
+  position: relative;
+  height: 50px;
+  width: 100px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.down-arrow {
+  position: relative;
+  height: 50px;
+  width: 100px;
+  left: 50%;
+  margin-left: -30px;
+}
+
+/*timeline*/
+
+.fadeInBlock a {
+  color: #FFD1AA;
+  border:1px solid #FFD1AA;
+  padding: 3px;
+}
+
+.fadeInBlock a:hover {
+  color: #D49A6A;
+  border:1px solid #D49A6A;
+  padding: 3px;
+}
+.right {
+  margin-top: -10px;
+}
+
+.left {
+  margin-top: -10px;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #A30A28;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 300px;
+  padding: 15px;
+  background: #A30A28;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li div::before {
+  left: -15px;
+  border: none;
+}
+
+.fadeInBlock {
+  opacity: 0;
+}
+
+[class*="title"] {
+  opacity: 0;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
+.left-title {
+  float: left;
+  clear: both;
+  margin-left: 15%;
+  color: #6B0800;
+}
+
+.left-sub-title {
+  margin-top: 0px;
+  float: left;
+  clear: both;
+  margin-left: 15%;
+  color: #6B0800;
+  width: 20em;
+  word-wrap: break-word;
+}
+
+.right-title {
+  float: right;
+  clear: both;
+  margin-right: 15%;
+  color: #6B0800;
+}
+
+.right-sub-title {
+  margin-top: 0px;
+  float: right;
+  clear: both;
+  color: #6B0800;
+  width: 20em;
+  word-wrap: break-word;
+}
+
+.left li div {
+  top: 100px;
+  left: -350px;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+.right li div {
+  top: 100px;
+  left: 50px;
+}
+
+.sub-left {
+  margin-top: -40px;
+  margin-left: -200px;
+}
+
+.sub-sub-left {
+  margin-top: -40px;
+  margin-left: -300px;
+}
+
+.sub-right {
+  margin-top: -40px;
+  margin-left: 200px;
+}
+
+.sub-sub-right {
+  margin-top: -40px;
+  margin-left: 300px;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  margin-top: 0;
+  max-width: 100%;
+}
+
+/*Special center divs*/
+.timeline ul li .sub-right-center {
+  position: relative;
+  bottom: 0;
+  width: 500px;
+  padding: 15px;
+  background: white;
+  border: solid;
+  border-color: #A30A28;
+}
+
+.center {
+  margin-left: -300px;
+}
+
+.sub-right-center {
+  margin-left: -300px;
+  margin-top: -40px;
+  background: white;
+}
+
+.sub-right-center p {
+  color: #A30A28;
+  font-size: 25px;
+}
+
+.timeline ul li .sub-left-center {
+  position: relative;
+  bottom: 0;
+  width: 500px;
+  padding: 15px;
+  background: white;
+  border: solid;
+  border-color: #A30A28;
+}
+
+.sub-left-center {
+  margin-left: 100px;
+  margin-top: -40px;
+  background: white;
+}
+
+.sub-left-center p {
+  color: #A30A28;
+  font-size: 25px;
+}

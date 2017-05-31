@@ -1,0 +1,19 @@
+/*heading*/
+h2 {
+text-align: center;
+}
+
+.me {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  margin-left: auto;
+}
+
+h1 {
+  text-align: center;
+}
